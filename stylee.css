@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 5px;
+  border-spacing: 15px;
+  text-align: center;
+  background-color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.25;
+}
+ul > li {
+    margin-left: 10px;
+}
+table {
+	text-align: center;
+	border: 13px;
+	border-color: #000000;
+	border-radius: 25px;
+	border-spacing: 10px;
+} 
+td {
+	text-align: left;
+	vertical-align: middle;
+	padding: 15px;
+	border: 10px;
+	background-color: #999999;
+	border-radius: 25px;
+}
+a {
+	color: #0000aa;
+}
+h1 {
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; font-size: 48px; font-weight: strong;
+}
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+}
+#tag_line {
+	size: 2px;
+	font-style: italic;
+	line-height: 1;
+	/* visibility: hidden; */
+}
+/* Style the header */
+.header {
+  padding: 5px 5px;
+  background: #000000;
+  color: #ffffff;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 102px;
+}
